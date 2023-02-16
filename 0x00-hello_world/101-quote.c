@@ -12,3 +12,4 @@ int main(void)
 
 	fprintf(stderr, "%s",  m);
 	return (1);
+}
