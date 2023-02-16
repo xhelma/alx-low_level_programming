@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	str message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char m[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	fprintf(stderr, message);
+	fprintf(stderr, m);
 	return (1);
