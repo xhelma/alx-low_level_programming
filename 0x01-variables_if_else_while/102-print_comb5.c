@@ -17,13 +17,11 @@ int main(void)
 		{
 			if (j > i)
 			{
-				if (i < 10)
-					putchar('0');
-				putchar('0' + i);
+				putchar('0' + i / 10);
+				putchar('0' + i % 10);
 				putchar(' ');
-				if (j < 10)
-					putchar('0');
-				putchar('0' + j);
+				putchar('0' + j / 10);
+				putchar('0' + j % 10);
 				if (i == 98)
 					break;
 				putchar(',');
