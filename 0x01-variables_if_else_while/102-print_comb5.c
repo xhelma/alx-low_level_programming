@@ -18,11 +18,11 @@ int main(void)
 			if (j > i)
 			{
 				if (i < 10)
-					putchar('0' + 0);
+					putchar('0');
 				putchar('0' + i);
 				putchar(' ');
 				if (j < 10)
-					putchar('0' + 0);
+					putchar('0');
 				putchar('0' + j);
 				if (i == 98)
 					break;
