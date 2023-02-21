@@ -20,8 +20,11 @@ void times_table(void)
 
 			if (i * j < 10)
 			{
-				_putchar(32);
-				_putchar(32);
+				if (j != 0)
+				{
+					_putchar(32);
+					_putchar(32);
+				}
 				_putchar('0' + i * j);
 				if (j != 9)
 					_putchar(44);
