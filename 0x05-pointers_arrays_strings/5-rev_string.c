@@ -3,9 +3,8 @@
 
 
 /**
- * rev_string - a function that prints a string,
- *             in reverse, followed by a new line.
- *
+ * rev_string - a function that reverses a string.
+ *             
  * @s: a string
  *
  *
