@@ -17,7 +17,7 @@ void rev_string(char *s)
 {
 	char *p = s;
 	char *r;
-	char rev[100];
+	char rev[10000];
 
 	r = rev;
 	while (*p)
