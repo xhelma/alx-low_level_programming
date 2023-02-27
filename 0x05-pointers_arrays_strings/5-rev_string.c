@@ -4,7 +4,7 @@
 
 /**
  * rev_string - a function that reverses a string.
- *             
+ *
  * @s: a string
  *
  *
