@@ -4,7 +4,7 @@
 /**
  * _strlen - a function that returns the length of a string.
  *
- * @s: an integer
+ * @s: a string.
  *
  *
  * Return: the length of the string @s.
