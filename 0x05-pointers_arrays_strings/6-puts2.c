@@ -15,7 +15,15 @@
 
 void puts2(char *str)
 {
-	for (; *str > 0; str = str + 2)
+	char *p = str;
+	int i = 0;
+
+	while (*p)
+	{
+		p++;
+		i++;
+	}
+	for (; str < str + i - 1; str = str + 2)
 	{
 		_putchar(*str);
 	}
