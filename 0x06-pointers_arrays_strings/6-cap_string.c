@@ -16,7 +16,9 @@ char *cap_string(char *s)
 	int i, j;
 	char separator[14] = " \t\n,;.!?\"(){}";
 
-	for (i = 0; s[i]; i++)
+	if (s[0] > 96 && s[0] < 123)
+		s[0] -= ' ';
+	for (i = 1; s[i]; i++)
 	{
 		for (j = 0; separator[j]; j++)
 		{
