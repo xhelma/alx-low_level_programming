@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strcmp - a function that copies a string.
+ * _strcmp - a function that compares two strings.
  *
- * @src: the string to copy from.
- * @dest: the string to copy to.
- * @n: the number of bytes to copy.
+ * @s1: a string.
+ * @s2: a string.
  *
- * Return: @dest.
+ *
+ * Return: an integer.
  */
 
 
@@ -26,7 +26,7 @@ int _strcmp(char *s1, char *s2)
 	for (k = 0; k < s1_len + 1; k++)
 	{
 		if (s1[k] != s2[k])
-			return s1[k] - s2[k];
+			return (s1[k] - s2[k]);
 	}
 	return (0);
 
